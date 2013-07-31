@@ -1,0 +1,33 @@
+{
+  "name": "goodfilms-graph",
+  "version": "0.0.1",
+  "description": "Get film data from Goodfil.ms",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottmotte/goodfilms-graph.git"
+  },
+  "keywords": [
+    "good",
+    "film",
+    "goodfilms",
+    "goodfilm",
+    "goodfi.lm",
+    "goodfilms graph",
+    "graph"
+  ],
+  "readmeFilename": "README.md",
+  "author": "scottmotte",
+  "license": "BSD",
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  }
+}
+
