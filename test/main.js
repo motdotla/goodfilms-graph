@@ -16,9 +16,8 @@ describe('goodfilms-graph', function() {
   describe('random()', function() {
     it('should have a film object', function(done) {
       this.timeout(10000);
-      result.random(function(err, film) {
+      result.random({}, function(err, film) {
         film.title.should.not.be.undefined;
-        console.log('done');
 
         done();
       });
@@ -27,6 +26,7 @@ describe('goodfilms-graph', function() {
 
   describe('_urlExists()', function() {
     it('should be true for an existing streamer url', function(done) {
+      this.timeout(10000);
       result._urlExists('http://goodfil.ms/film/61003-the-motorcycle-diaries/netflix_url', function(err, exists) {
         exists.should.eql(true);
 
@@ -35,6 +35,7 @@ describe('goodfilms-graph', function() {
     });
 
     it('should be false for a non-existing streamer url', function(done) {
+      this.timeout(10000);
       result._urlExists('http://goodfil.ms/film/61003-the-motorcycle-diaries/hulu_url', function(err, exists) {
         exists.should.eql(false);
 
