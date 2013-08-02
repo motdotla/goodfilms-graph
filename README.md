@@ -1,6 +1,6 @@
 # goodfilms-graph
 
-Choose a random film from goodfil.ms excellent graph. Also, crudely tells you if you can find the film on netflix, hulu, amazon, or itunes. Gives you a direct url.
+Choose a random film from [goodfil.ms](http://goodfil.ms) excellent [graph](http:/goodfil.ms/graph/graph.json). Also, crudely tells you if you can find the film on netflix, hulu, amazon, or itunes. Gives you a direct url.
 
 ## Usage
 
